@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desain Web menggunakan HTML dan CSS.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>WebDesign.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#tutors">Tutors</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="" class="tbl-biru">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!-- untuk home -->
+        <section id="home">
+            <img src="https://img.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg?size=626&ext=jpg&ga=GA1.1.711175745.1683256295&semt=robertav1_2_sidr"/>
+            <div class="kolom">
+                <p class="deskripsi">Belajar Programming #dirumahaja</p>
+                <h2>Tetap Sehat, Tetap Semangat</h2>
+                <p>Membuat website sederhana dengan menggunakan bahasa pemrograman HTML dan CSS sangat cocok untuk pemula. Anda dapat mempelajari setiap tahap pembuatan sebuat website mulai dari database, desain tampilan, syntax html dan css kemudian hosting website. Silahkan join bersama kami.</p>
+                <p><a href="" class="tbl-pink">Pelajari Lebih Lanjut</a></p>
+            </div>
+        </section>
+
+        <!-- untuk courses -->
+        <section id="courses">
+            <div class="kolom">
+                <p class="deskripsi">You Will Need This</p>
+                <h2>Online Courses</h2>
+                <p>Perancangan web adalah istilah umum yang digunakan untuk mencakup bagaimana isi web konten ditampilkan, yang dikirimkan ke pengguna akhir melalui World Wide Web, dengan menggunakan sebuah browser web atau perangkat lunak berbasis web.</p>
+                <p>Sebuah halaman web adalah berkas yang ditulis sebagai berkas teks biasa (plain text) yang diatur dan dikombinasikan sedemikian rupa dengan instruksi-instruksi berbasis HTML atau XHTML,kadang-kadang pula disisipi dengan sekelumit bahasa skrip. </p>
+                <p>Berkas tersebut kemudian diterjemahkan oleh peramban web dan ditampilkan seperti layaknya sebuah halaman pada monitor komputer.</p>
+                <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+            </div>
+            <iframe src="https://www.youtube.com/embed/4u-tfH_RuD4">
+            </iframe>
+        </section>
+
+        <!-- untuk tutors -->
+        <section id="tutors">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our Top Tutors</p>
+                    <h2>Tutors</h2>
+                    <p>Tutor terbaik yang akan menemani anda belajar!</p>
+                </div>
+
+                <div class="tutor-list">
+                    <div class="kartu-tutor">
+                        <img src="programmer.png"/>
+                        <p>Jason Lee Scott</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="programmer1.png"/>
+                        <p>John Doe</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="data:image/png;base64,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"/>
+                        <p>David Lee</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD2vmqVWeBppEwJ6Ozwq55tOxWLleqaDGYvE_vzyVQaw&s"/>
+                        <p>Luna</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- untuk partners -->
+        <section id="partners">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our Top Partners</p>
+                    <h2>Partners</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi magni tempore expedita sequi. Similique rerum doloremque impedit saepe atque maxime.</p>
+                </div>
+
+                <div class="partner-list">
+                    <div class="kartu-partner">
+                        <img src="https://www.designevo.com/res/templates/thumb_small/black-wheat-and-mortarboard.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://image.freepik.com/free-vector/campus-collage-university-education-logo-design-template_7492-63.jpg"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://image.freepik.com/free-vector/campus-collage-university-education-logo-design-template_7492-62.jpg"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://www.designevo.com/res/templates/thumb_small/encircled-branches-and-book.png"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="https://image.freepik.com/free-vector/campus-collage-university-education-logo-design-template_7492-64.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>WebDesign.</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>
+                </div>
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Jl. Laksda Adisucipto Sleman Yogyakarta</p>
+                    <p>Kode Pos: 57365</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social</h3>
+                    <p><b>YouTube: </b>Programming di WebDesign</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2020. <b>WebDesign.</b> All Rights Reserved.
+        </div>
+    </div>
+    
+</body>
+</html>
